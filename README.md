@@ -1,5 +1,5 @@
 # NN EEG Covert Attention
-**EEG Experiment:** Two squares were presented to the left and right side of fixation flickering at random (with certain restraints). At the same time a letter stream was presented to the left and right; sometimes a 2 or 5 was presented instead of letters. The participants task was cued to attend the left or right letter stream and press a button when detected a 2 or 5 at the cued, attended, side. EEG data was recorded from 32 electrodes.
+**EEG Experiment:** Two squares were presented to the left and right side of fixation flickering at random (with certain restraints). At the same time a letter stream was presented to the left and right; sometimes a 2 or 5 was presented instead of letters. The participants task was cued to attend the left or right letter stream and press a button when detected a 2 or 5 at the cued (attended) side. EEG data was recorded from 32 electrodes.
 
 **Data files not included in repository**
 
