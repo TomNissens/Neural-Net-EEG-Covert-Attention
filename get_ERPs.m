@@ -36,7 +36,7 @@ nr_log_vars = 7;
 % convert start and stop t to number of EEG samples (ms = 1000hz to 5000hz)
 start_t_eeg = start_t * 5;
 stop_t_eeg = stop_t * 5;
-ERP_length = 1+start_t_eeg+stop_t_eeg;
+ERP_length = 1+abs(start_t_eeg)+abs(stop_t_eeg);
 
 % preallocate for speed
 ERP_data = NaN(epar.trial_nr*15,ERP_length+nr_log_vars);
